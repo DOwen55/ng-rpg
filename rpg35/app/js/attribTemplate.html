@@ -1,0 +1,23 @@
+<div class="row">
+    <div class="col-xs-1">
+        <label>{{attribute.key}}</label>
+    </div>
+    <div class="col-xs-2">
+        <label>Base:</label>
+        <input type="number" style="width:40px;"
+               ng-model="attribute.rawValue"
+               ng-change="characterRenderer.recalcCharacter()"/>
+    </div>
+    <div class="col-xs-2">
+        <label>Mod:</label>
+        <input type="number" style="width:40px;"
+               ng-model="attribute.userModifier"
+               ng-change="characterRenderer.recalcCharacter()"/>
+    </div>
+    <div class="col-xs-1">
+        <label>Calc:{{attribute.finalValue}}</label>
+    </div>
+    <div class="col-md-1">
+        <label>Modifier:{{attribute.calcModifier}}</label>
+    </div>
+</div>

@@ -1,0 +1,10 @@
+{
+  "name": "angular-seed",
+  "description": "DO's Angular Seed Project",
+  "version": "0.0.1",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-connect": "~0.5.0"
+  }
+}
